@@ -52,6 +52,14 @@
 	width: 500px;
 }
 
+.indexPictures {
+	width: 100%;
+}
+
+.towerPicture {
+	width: 40%;
+}
+
 @-moz-keyframes spinner {
 	0% {
 		-moz-transform: rotate(0deg);
