@@ -27,16 +27,28 @@
 }
 
 .elLys {
-	width: 60%;
+	width: 70%;
 }
 
-#lysSekvensFlex {
+.pictureFlex {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
 .lysSekvens {
+	width: 500px;
+}
+
+.spacer {
+	margin-top: 2em;
+}
+
+.kaffeModel {
+	width: 90%;
+}
+
+.halfPicture {
 	width: 500px;
 }
 
