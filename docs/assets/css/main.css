@@ -26,6 +26,20 @@
 	align-content: flex-start;
 }
 
+.elLys {
+	width: 60%;
+}
+
+#lysSekvensFlex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.lysSekvens {
+	width: 500px;
+}
+
 @-moz-keyframes spinner {
 	0% {
 		-moz-transform: rotate(0deg);
