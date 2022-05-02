@@ -60,6 +60,21 @@
 	width: 40%;
 }
 
+.picText {
+	display: flex;	
+	flex-direction: row
+
+}
+
+.pic {
+	width: 100%;
+}
+
+.picTextFigure {
+	width: 800px;
+	padding-right: 30px;
+}
+
 @-moz-keyframes spinner {
 	0% {
 		-moz-transform: rotate(0deg);
