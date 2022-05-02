@@ -23,7 +23,7 @@
       </header>
       <div id="main">
         <div class="generic">
-          <h1>Sluttprosjekt</h1>
+          <h1>Sluttprosjekt</h>
           <h2>Moist</h2>
 
           <p>Sluttprosjekt mitt er et system som automatisk vanner plantene basert på fuktigheten i jorda. Den har en fuktighetssensor som kontinuerlig måler fuktigheten i jorda, hvis det det er for lite fuktighet og den trenger å vannes. Sendes det et signal til en solonoid valve som deretter åpnes og lar vannet renne gjennom systemet.</p>
@@ -44,156 +44,162 @@
           <h2>3D modell</h2>
           <p>Dette er en 3D modell av alle delene som er 3D printa</p>
           <iframe src="https://a360.co/37RpnBj" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-          
-          
+  
           <h2>Video presentasjon</h2>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/XJTkK98breg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+         
           <h2>Solenoid tilkobling</h2>
-          <div class="picText">
-            <figure>
+          <figure>
+            <img
+            class="kaffeModel"
+            src="Bilder/SolenoidTilkobling.jpg"
+            alt="Vanntårn assembly"
+            />
+            <figcaption>Her se du hvordan solenoiden er koblet til vanntanken og potta</figcaption>
+          </figure>
+          
+          <h2>Elektronikken</h2>
+          <div class="pictureFlex">
+            <figure class="halfPicture towerPicture">
               <img
               class="kaffeModel"
-              src="Bilder/SolenoidTilkobling.jpg"
-              alt="Vanntårn assembly"
+              src="Bilder/Elektronikk1.png"
+              alt="Elektronikk"
               />
-              <figcaption>Vanntårn assembly</figcaption>
+              <figcaption>Her se du hvordan elektronikken er koblet sammen</figcaption>
             </figure>
-            <p>Her se du hvordan solenoiden er koblet til vanntanken og potta.</p>
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/Elektronikk2.png"
+              alt="Elektronikk"
+              />
+              <figcaption>Her se du hvordan solenoiden er koblet til</figcaption>
+            </figure>
           </div>
          
-
           <h2>3D modellene</h2>
+          <h3>Potta</h3>
+          <p>Potta består av tre deler, selve potta og en plugg som er limt fast, og fuktighetssensoren.</p>
           <div class="pictureFlex">
-            <div>
-              <h3>Potta</h3>
-              <p>Potta består av tre deler, selve potta og en plugg som er limt fast, og fuktighetssensoren.</p>
-              <div class="pictureFlex">
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/Potte.png"
-                  alt="Potta"
-                  />
-                  <figcaption>Potta</figcaption>
-                </figure> 
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/PotteUnder.png"
-                  alt="Potta"
-                  />
-                  <figcaption>Potta Under</figcaption>
-                </figure> 
-              </div>
-              <div class="pictureFlex">
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/SensorCase.png"
-                  alt="SensorCase"
-                  />
-                  <figcaption>Sensor Case</figcaption>
-                </figure> 
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/SensorCaseLokk.png"
-                  alt="SensorCaseLokk"
-                  />
-                  <figcaption>Sensor Case Lokk</figcaption>
-                </figure> 
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/SensorCaseLokkAssembly.png"
-                  alt="SensorCase"
-                  />
-                  <figcaption>Sensor Case Assembly</figcaption>
-                </figure> 
-              </div>
-              </div>
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/Potte.png"
+              alt="Potta"
+              />
+              <figcaption>Potta</figcaption>
+            </figure> 
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/PotteUnder.png"
+              alt="Potta"
+              />
+              <figcaption>Potta Under</figcaption>
+            </figure> 
+          </div>
+          <div class="pictureFlex">
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/SensorCase.png"
+              alt="SensorCase"
+              />
+              <figcaption>Sensor Case</figcaption>
+            </figure> 
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/SensorCaseLokk.png"
+              alt="SensorCaseLokk"
+              />
+              <figcaption>Sensor Case Lokk</figcaption>
+            </figure> 
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/SensorCaseLokkAssembly.png"
+              alt="SensorCase"
+              />
+              <figcaption>Sensor Case Assembly</figcaption>
+            </figure> 
+          </div>
+          
+          <h3>Vanntårnet</h3>
+          <p>Vanntårnet er den delen som består av flest deler som er satt sammen. Den er satt sammen av 21 forskjellige deler, hvor jeg har modellert og 3D printa det meste. Det eneste som ikke er 3D printa er selve beina som består av aluminium. </p>
+          <p>For å holde alt sammen brukes det brackets, disse er modellert til å passe inn i beina slik at man kan montere dem sidelengs. Jeg har også modellert støtter som beina settes nedi, dette er for at tårnet skal stå mer stabilt </p>
+          <div class="pictureFlex">
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/VanntårnModel.png"
+              alt="VanntårnModel"
+              />
+              <figcaption>Vanntårn</figcaption>
+            </figure> 
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/TowerBase.png"
+              alt="TowerBase"
+              />Vanntårn uten tanken</figcaption>
+            </figure> 
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/BracketSide.png"
+              alt="BracketSide"
+              />
+              <figcaption>Bracket</figcaption>
+            </figure> 
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/BeinStøtte.png"
+              alt="BeinStøtte"
+              />
+              <figcaption>Støtte til beina</figcaption>
+            </figure> 
+          </div>
 
-            </div>
-            <div>
-              <h3>Vanntårnet</h3>
-              <p>Vanntårnet er den delen som består av flest deler som er satt sammen. Den er satt sammen av 21 forskjellige deler, hvor jeg har modellert og 3D printa det meste. Det eneste som ikke er 3D printa er selve beina som består av aluminium. </p>
-              <p>For å holde alt sammen brukes det brackets, disse er modellert til å passe inn i beina slik at man kan montere dem sidelengs. Jeg har også modellert støtter som beina settes nedi, dette er for at tårnet skal stå mer stabilt </p>
-              <div class="pictureFlex">
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/VanntårnModel.png"
-                  alt="VanntårnModel"
-                  />
-                  <figcaption>Vanntårn</figcaption>
-                </figure> 
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/TowerBase.png"
-                  alt="TowerBase"
-                  />
-                  <figcaption>Bracket for å feste beina sammen</figcaption>
-                </figure> 
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/BracketSide.png"
-                  alt="BracketSide"
-                  />
-                  <figcaption>Bracket</figcaption>
-                </figure> 
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/BeinStøtte.png"
-                  alt="BeinStøtte"
-                  />
-                  <figcaption>Støtte til beina</figcaption>
-                </figure> 
-              </div>
-            </div>
-            <div>
-              <h3>Kassa</h3>
-              <p>Kassa har to funksjoner, den ene er å oppbevare og skjule elektronikken. Den andre er å koble de forksjellige delene av prosjeketet sammen.</p>
-              <p>For å feste tårnet til boksen har jeg laget en kloss som går rundt støttene, denne skrus fast i boksen med skruer og muttere fra undersiden. Potta blir ikke skrudd fast, men den har fire klosser som skrus intil, hullene i kasse er laget med litt spillerom slik at man kan justere posisjonen til potta.</p>
-              <div class="pictureFlex">
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/Kassa.png"
-                  alt="Kassa"
-                  />
-                  <figcaption>Kassa</figcaption>
-                </figure> 
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/BoxDetails.png"
-                  alt="BoxDetails"
-                  />
-                  <figcaption>BoxDetails</figcaption>
-                </figure> 
-                
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/TowerFastener.png"
-                  alt="TowerFastener"
-                  />
-                  <figcaption>Tower Fastener</figcaption>
-                </figure> 
-                <figure class="halfPicture towerPicture">
-                  <img
-                  class="kaffeModel"
-                  src="Bilder/PotFastener.png"
-                  alt="PotFastener"
-                  />
-                  <figcaption>Pot Fastener</figcaption>
-                </figure> 
-              </div>
-            </div>
+          <h3>Kassa</h3>
+          <p>Kassa har to funksjoner, den ene er å oppbevare og skjule elektronikken. Den andre er å koble de forksjellige delene av prosjeketet sammen.</p>
+          <p>For å feste tårnet til boksen har jeg laget en kloss som går rundt støttene, denne skrus fast i boksen med skruer og muttere fra undersiden. Potta blir ikke skrudd fast, men den har fire klosser som skrus intil, hullene i kasse er laget med litt spillerom slik at man kan justere posisjonen til potta.</p>
+          <div class="pictureFlex">
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/Kassa.png"
+              alt="Kassa"
+              />
+              <figcaption>Kassa</figcaption>
+            </figure> 
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/BoxDetails.png"
+              alt="BoxDetails"
+              />
+              <figcaption>BoxDetails</figcaption>
+            </figure> 
+            
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/TowerFastener.png"
+              alt="TowerFastener"
+              />
+              <figcaption>Tower Fastener</figcaption>
+            </figure> 
+            <figure class="halfPicture towerPicture">
+              <img
+              class="kaffeModel"
+              src="Bilder/PotFastener.png"
+              alt="PotFastener"
+              />
+              <figcaption>Pot Fastener</figcaption>
+            </figure> 
           </div>
         </div>
       </div>
